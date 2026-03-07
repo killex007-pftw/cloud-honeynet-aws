@@ -988,6 +988,8 @@ credentials_to_block:
 
 ---
 
-*Documento finalizado el 2026-03-06 · Proyecto Cloud HoneyNet \& Automated Threat Intelligence*
+*Documento finalizado el 2026-03-06  ·  Proyecto Cloud HoneyNet \& Automated Threat Intelligence*
+
 *K.B · Lima, Perú*
+
 *Respositorio:* [killex007-pftw](https://github.com/killex007-pftw)
