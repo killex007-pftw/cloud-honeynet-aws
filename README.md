@@ -146,11 +146,13 @@ cloud-honeynet-aws/
 │   └── json/                         Exports JSON de las 9 queries principales
 │
 └── screenshots/
+    ├── arquitectura/                  Evidencias del despliegue y configuración en AWS         
     ├── cowrie/                        Evidencias del despliegue Cowrie
-    ├── tpot/                          Evidencias del despliegue T-Pot
-    ├── dionaea/                       Evidencias del despliegue Dionaea
     ├── dashboard/                     Capturas del Wazuh Dashboard
-    └── queries/                       Screenshots de queries en DevTools
+    ├── dionaea/                       Evidencias del despliegue Dionaea
+    ├── queries/                       Screenshots de queries en DevTools
+    ├── ti-reports/                    Screenshots de reportes de AbuseIPDB y GreyNoise
+    └── tpot/                          Evidencias del despliegue T-Pot
 ```
 
 ---
