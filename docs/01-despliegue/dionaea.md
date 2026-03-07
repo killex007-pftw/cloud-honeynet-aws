@@ -344,9 +344,9 @@ sudo grep "dionaea.json" /var/ossec/logs/ossec.log | tail -3
 
 | Archivo                          | Contenido                                                                                                   |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| `dionaea-wazuh-agent-active.png` | Dashboard Wazuh → Endpoints: agente `ip-10-0-10-154` en estado **active**                                   |
-| `dionaea-archives-eventos.png`   | Discover `wazuh-archives-*` filtrando `data.@source:"dionaea"` con campo `data.connection.protocol` visible |
-| `dionaea-smb-eventos.png`        | Eventos SMB del hallazgo del Hospital Base Valdivia (más de 64,095 eventos)                                 |
+| [Agente wazuh dionaea activo](../../screenshots/dionaea/dionaea-wazuh-agent-active.png) | Dashboard Wazuh → Endpoints: agente `ip-10-0-10-154` en estado **active**                                   |
+| [Eventos de archivos dionaea](../../screenshots/dionaea/dionaea-archives-eventos.png)   | Discover `wazuh-archives-*` filtrando `data.@source:"dionaea"` con campo `data.connection.protocol` visible |
+| [Eventos SMB en dionaea](../../screenshots/dionaea/dionaea-smb-eventos.png)        | Eventos SMB del hallazgo del Hospital Base Valdivia (más de 64,095 eventos)                                 |
 ## Referencias
 
 - [Dionaea — Repositorio oficial](https://github.com/DinoTools/dionaea)
