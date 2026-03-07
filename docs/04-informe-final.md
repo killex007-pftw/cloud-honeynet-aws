@@ -161,9 +161,7 @@ A --> W
 - **VPC aislada** con subred dedicada para honeypots (sin acceso a producción)
 - **Security Groups**: ingress irrestricto hacia honeypots; egress bloqueado
   (los honeypots no pueden iniciar conexiones salientes)
-- **IAM mínimo privilegio**: roles EC2 sin permisos de gestión de otros recursos
-- **SSM Session Manager**: acceso administrativo sin puertos SSH expuestos
-  en instancias de gestión
+- **Network ACLs**: segunda capa de control stateless para reforzar el aislamiento a nivel de subnet, complementando los Security Groups (stateful)
 - **CloudTrail habilitado**: auditoría completa de acciones en la cuenta AWS
 
 ### 3.4 Pipeline de Datos
@@ -220,18 +218,18 @@ extraer métricas reproducibles al cierre del período:
 
 | Query | Propósito |
 |-------|-----------|
-| Q01 | Conteo total de eventos por honeypot |
-| Q02 | Top 20 IPs atacantes por volumen |
-| Q03 | Top 15 países de origen por honeypot |
-| Q04 | Técnicas MITRE ATT&CK por honeypot |
-| Q05 | Credenciales capturadas (Cowrie) |
-| Q06 | Timeline diario de eventos |
-| Q07 | Alertas de Threat Intelligence |
-| Q08 | Comandos ejecutados (Cowrie sessions) |
-| Q09 | Distribución de protocolos (Dionaea) |
+| [Q01](../configs/queries/json/query-01-conteo-honeypot.json) | Conteo total de eventos por honeypot |
+| [Q02](../configs/queries/json/query-02-top20-ips.json) | Top 20 IPs atacantes por volumen |
+| [Q03](../configs/queries/json/query-03-top-15-paises.json) | Top 15 países de origen por honeypot |
+| [Q04](../configs/queries/json/query-04-MITRE-por-honeypot.json) | Técnicas MITRE ATT&CK por honeypot |
+| [Q05](../configs/queries/json/query-05-credenciales-cowrie.json) | Credenciales capturadas (Cowrie) |
+| [Q06](../configs/queries/json/query-06-timeline-por-dia.json) | Timeline diario de eventos |
+| [Q07](../configs/queries/json/query-07-alertas-ti.json) | Alertas de Threat Intelligence |
+| [Q08](../configs/queries/json/query-08-comandos-cowrie.json) | Comandos ejecutados (Cowrie sessions) |
+| [Q09](../configs/queries/json/query-09-protocolos-dionaea.json) | Distribución de protocolos (Dionaea) |
 
 Los resultados crudos de estas queries se conservan en
-`data/queries/` como evidencia reproducible.
+`configs/queries/json` como evidencia reproducible.
 
 ---
 
