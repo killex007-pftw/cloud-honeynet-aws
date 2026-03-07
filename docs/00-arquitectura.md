@@ -108,7 +108,7 @@ A -- "eventos indexados" --> W
 | `chn-subnet-wazuh`            | `10.0.20.0/24` | Pública | Wazuh Stack              |
 | `chn-subnet-private-reserved` | `10.0.30.0/24` | Privada | -                        |
 > **Evidencia:** Consola AWS — VPC Subnets
-> ![AWS VPC Subnets](../../screenshots/arquitectura/aws-vpc-subnets.png)
+> ![AWS VPC Subnets](../screenshots/arquitectura/aws-vpc-subnets.png)
 
 > **Nota sobre diseño:** El plan contemplaba una subnet privada adicional
 > (`private-reserved`) para extensiones futuras. Se creo en la
