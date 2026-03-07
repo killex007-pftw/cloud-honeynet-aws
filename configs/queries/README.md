@@ -394,7 +394,7 @@ real obtenido durante la operación del proyecto.
 
 ## Referencias
 
-- [Informe Final — Análisis de Hallazgos](cloud-honeynet-aws/docs/03-analisis/hallazgos)
+- [Informe Final — Análisis de Hallazgos](cloud-honeynet-aws/docs/03-analisis/hallazgos.md)
     
 - [Reglas de Detección](cloud-honeynet-aws/docs/02-wazuh-integracion/reglas-custom)
     
