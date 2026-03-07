@@ -225,9 +225,9 @@ sudo crontab -l -u root | grep ti
 ```
 ## Referencias
 
-- [Documentación TI completa](docs/02-wazuh-integracion/threat-intelligence.md)
+- [Documentación TI completa](../docs/02-wazuh-integracion/threat-intelligence.md)
     
-- [Reglas Wazuh que consumen la CDB](./docs/02-wazuh-integracion/reglas-custom)
+- [Reglas Wazuh que consumen la CDB](../docs/02-wazuh-integracion/reglas-custom)
     
 - [AbuseIPDB API v2](https://docs.abuseipdb.com/)
     
