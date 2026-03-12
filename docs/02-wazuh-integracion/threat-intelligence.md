@@ -3,7 +3,7 @@
 > **Componente:** Wazuh Manager v4.14.2  
 > **Ubicación de scripts:** `scripts/ti/` · `scripts/telegram/`  
 > **Feeds:** AbuseIPDB v2 · GreyNoise Community · AlienVault OTX  
-> **Resultado en 30 días:** 85 alertas TI · 3 IPs score 100/100
+> **Resultado en ~7 días de operación:** 85 alertas TI · 3 IPs score 100/100
 
 ---
 
@@ -458,8 +458,8 @@ Ver detalles completos en
 |Total alertas TI generadas|**85**|
 |IPs confirmadas score 100/100|**3**|
 |IPs high-confidence enriquecidas|3+|
-|Runs del pipeline baseline|~60 (cada 12h × 30 días)|
-|Runs del pipeline enrichment|~120 (cada 6h × 30 días)|
+|Runs del pipeline baseline|~14 (cada 12h × 7 días)|
+|Runs del pipeline enrichment|~28 (cada 6h × 7 días)|
 |Cache hits (evitaron llamadas API)|Mayoría de IPs repetidas|
 ## 13. Hallazgos Confirmados por TI
 
