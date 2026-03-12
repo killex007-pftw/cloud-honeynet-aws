@@ -4,7 +4,7 @@
 > **IP privada:** `10.0.10.154`  
 > **Versión Dionaea:** 0.11.0  
 > **Fecha de despliegue:** 2026-02-13  
-> **Estado al cierre del proyecto:** Operativo (30 días continuos)
+> **Estado al cierre del proyecto:** Operativo (~7 días continuos en estado final)
 
 ---
 
