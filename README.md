@@ -1,6 +1,6 @@
 # Cloud HoneyNet & Automated Threat Intelligence
 
-> Red de señuelos (HoneyNet) cloud-native desplegada en AWS durante 30 días para
+> Red de señuelos (HoneyNet) cloud-native desplegada en AWS durante ~7 días para
 > la captura de tráfico malicioso real, correlación automática con feeds de
 > Threat Intelligence y mapeo de técnicas MITRE ATT&CK.
 
@@ -10,7 +10,7 @@
 ![T--Pot](https://img.shields.io/badge/Honeypot-T--Pot%20CE%2024.04-orange)
 ![Dionaea](https://img.shields.io/badge/Honeypot-Dionaea%200.11.0-red)
 ![Status](https://img.shields.io/badge/Estado-Completado-brightgreen)
-![Period](https://img.shields.io/badge/Período-30%20días-lightgrey)
+![Period](https://img.shields.io/badge/Período-~7%20días-lightgrey)
 
 ---
 
@@ -20,7 +20,7 @@
 | :------------------------------------------ | ------------------------------------: |
 | Total de eventos capturados                 |                           **137,657** |
 | Honeypots operativos                        |   **3** (Cowrie · T-Pot CE · Dionaea) |
-| Período de operación                        | **30 días** (2026-02-04 → 2026-03-06) |
+| Período de operación                        | Período de operación | **~7 días** (estado final con configuración completa) |
 | Países de origen identificados              |                               **15+** |
 | IPs únicas atacantes                        |                             **> 200** |
 | Técnicas MITRE ATT&CK confirmadas           |                                 **6** |
@@ -199,8 +199,8 @@ cloud-honeynet-aws/
 | Storage EBS + transferencia | — | ~USD 2.78 |
 | **TOTAL** | | **~USD 21.60** |
 
-> El proyecto operó 30 días (~USD 106 total). El presupuesto de **USD 21.60
-> aplica al modelo de referencia de 7 días** definido en el diseño inicial.
+> Los honeynets operaron en estado final de configuración durante **~7 días** (~USD 21.60). 
+> El proyecto completo incluyó ~23 días adicionales de despliegue y configuración, con un costo operativo total de ~USD 106.
 
 ---
 ## Documentación
