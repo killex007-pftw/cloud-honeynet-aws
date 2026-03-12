@@ -1,4 +1,4 @@
-# Análisis de Hallazgos — 30 Días de Operación
+# Análisis de Hallazgos — ~7 Días de Operación
 
 > **Período:** 2026-02-04 → 2026-03-06  
 > **Sensores activos:** Cowrie · T-Pot CE · Dionaea  
@@ -22,7 +22,7 @@
 
 ## 1. Resumen Ejecutivo
 
-Durante 30 días de operación continua, la HoneyNet capturó **137,657
+Durante ~7 días de operación continua, la HoneyNet capturó **137,657
 eventos** desde 4 continentes, con tres hallazgos de alto impacto
 confirmados por Threat Intelligence:
 
@@ -296,7 +296,7 @@ confirmando el uso de scripts automatizados de propagación botnet.
 ## 7. Cobertura MITRE ATT&CK
 
 ```text
-Tactics observadas durante 30 días:
+Tactics observadas durante el período de operación (~7 días):
 
 RECONNAISSANCE     → T1595 (Active Scanning)  H1
                    → T1046 (Network Service Scan)  T-Pot
