@@ -185,10 +185,10 @@ cloud-honeynet-aws/
 | T1021.002 | Remote Services: SMB/Windows Admin Shares | Dionaea        | 64,095 eventos SMB · regla 100584              |
 
 
-## Costo Operativo AWS
+
 ---
 
-## 💰 Costo Operativo AWS
+## Costo Operativo AWS
 
 | Recurso | Tipo | Costo estimado / 7 días |
 |:--------|:-----|------------------------:|
